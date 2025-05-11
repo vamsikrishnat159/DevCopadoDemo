@@ -163,9 +163,16 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
-        <fullName>Enter_Email__c</fullName>
+        <fullName>Enter_Phone__c</fullName>
+        <label>Enter Phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Enter_Email_here__c</fullName>
         <externalId>false</externalId>
-        <label>Enter Email</label>
+        <label>Enter Email here</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Email</type>
